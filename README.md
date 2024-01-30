@@ -1,6 +1,7 @@
 # Generative AI Course Repository
 
-Welcome to the Generative AI course repository at Dauphine-PSL University for the Master IASD Executive. This repository contains essential materials for the course, including lecture slides, a setup guide, and a detailed project description. There are in the folder `resources`
+Welcome to the Generative AI course repository at Dauphine-PSL University for the Master IASD Executive. This repository contains essential materials for the course, including lecture slides, a setup guide, and a detailed project description. 
+There are available in the folder `resources`.
 
 ## Contents
 
