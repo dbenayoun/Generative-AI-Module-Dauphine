@@ -16,7 +16,7 @@
 - **Create Virtual Environment**:
    - Open the Anaconda Prompt and type:
      ```bash
-     conda create -n flask_env python=3.12
+     conda create -n flask_env python=3.11
      ```
    - Activate the environment:
      ```bash
@@ -31,26 +31,26 @@
     ```
 
 #### 5. Install plugins in VS Code
+- **Install Python Plugin**:
+  - Go to Extensions and search for "Python".
+  - Install the Python extension.
+
 - **Install Jupyter Plugin**:
   - Open VS Code.
   - Go to Extensions (sidebar) and search for "Jupyter".
   - Install the Jupyter extension.
 
-- **Install Git Plugin**:
-  - Go to Extensions and search for "Git".
-  - Install the Git extension.
-
-- **Install Python Plugin**:
-  - Go to Extensions and search for "Python".
-  - Install the Python extension.
-
 
 #### 6. Verify Installation
-- Create a simple Python file in VS Code and try creating a jupyter notebook (`test.ipynb`), using `flask_env` as a kernel, and importing Flask, Pandas, etc., to ensure everything is installed correctly.
+- Create a simple Jupyter notebook in VS Code in folder `notebooks` and try creating a jupyter notebook (`test_noteobok_env.ipynb`)
+- Click on the top right `Select kernel`, select `flask_env` as a kernel
+- Import Flask, Pandas, OpenAI etc., to ensure everything is installed correctly.
 
 #### 7. Starting Your First Flask Project
-- **Create a New Folder** for your project and open it in VS Code.
-- **Create a New Python File** (e.g., `app.py`) in the folder.
+- **Select `flask_env` as python interpreter**
+  - Use the Python: Select Interpreter command from the Command Palette (Ctrl+Shift+P).
+  - Select `flask_env`
+- **Create a New Python File** (e.g., `test_flak_app.py`) in the `src` folder.
 - **Write a Basic Flask App**:
   ```python
   from flask import Flask
