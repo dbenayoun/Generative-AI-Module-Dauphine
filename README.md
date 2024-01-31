@@ -5,7 +5,7 @@ There are available in the folder `resources`.
 
 ## Contents
 
-1. **Cours Generative AI - Slides.pdf**
+1. **Cours Generative AI - Slides.pdf** (soon available)
    - These are the slides used in the course lectures. They cover the fundamental concepts of Generative AI, including theoretical and practical aspects.
 
 2. **Guide_Setup_Environment.md**
