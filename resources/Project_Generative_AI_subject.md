@@ -50,7 +50,9 @@ The project’s GitHub needs to be sent before 15/03/2024.
 
 ## Advice
 
-Begin by comprehending the data and establishing a clear objective for your application. 
+Begin by forking the repository into your GitHub and clone it locally.
+
+Start with comprehending the data and establishing a clear objective for your application. 
 
 Initially, construct a basic prototype of the front-end interface, utilizing ChatGPT for this purpose. 
 Once the primary features of the front-end are operational, proceed to develop a straightforward Flask back-end. This could start as simply as returning the input message. Ensure the Flask server is operational and effectively communicating with the front-end.
