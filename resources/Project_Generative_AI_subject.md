@@ -27,6 +27,7 @@ Simulated enterprise data will be provided, which includes:
 2. **Data Retrieval and Formatting:**
    - Extracting, cleaning, and organizing the provided data.
    - Formatting the data to be compatible with a RAG system.
+   - Start with the sample data `twitter_data_clean_sample`.
 
 3. **Development:**
    - Architectural design of the web application.
@@ -49,11 +50,16 @@ The project’s GitHub needs to be sent before 15/03/2024.
 
 ## Advice
 
-Begin by comprehending the data and establishing a clear objective for your application. Initially, construct a basic prototype of the front-end interface, utilizing ChatGPT for this purpose. Once the primary features of the front-end are operational, proceed to develop a straightforward Flask back-end. This could start as simply as returning the input message. Ensure the Flask server is operational and effectively communicating with the front-end.
+Begin by comprehending the data and establishing a clear objective for your application. 
 
-Next, enhance the Flask back-end by integrating the Retrieval-Augmented Generation (RAG) system. Utilize the provided sample file to enable the system to identify and respond with the most relevant tweet, using GPT-generated answers. Initially, employ an Excel file for storing embeddings, progressing later to a more sophisticated vector database solution, such as ChromaDB.
+Initially, construct a basic prototype of the front-end interface, utilizing ChatGPT for this purpose. 
+Once the primary features of the front-end are operational, proceed to develop a straightforward Flask back-end. This could start as simply as returning the input message. Ensure the Flask server is operational and effectively communicating with the front-end.
 
-Further refine the application by improving the prompts, retrieval methods, and front-end features, such as adding translation and text reformulation capabilities. Finally, focus on deploying your web application. For hosting the Flask application, consider using a free platform like PythonAnywhere, which allows for hosting, running, and coding Python in a cloud environment. 
+Next, enhance the Flask back-end by integrating the Retrieval-Augmented Generation (RAG) system. Start by utilizing the provided sample file `twitter_data_clean_sample.csv` to enable the system to identify and respond with the most relevant tweet, using GPT-generated answers. Initially, employ an Excel file for storing embeddings, progressing later to a more sophisticated vector database solution, such as ChromaDB.
+
+Further refine the application by improving the prompts, retrieval methods, and front-end features, such as adding translation and text reformulation capabilities. Then use the full data `twitter_data_clean.csv` in the app.
+
+Finally, focus on deploying your web application. For hosting the Flask application, consider using a free platform like PythonAnywhere, which allows for hosting, running, and coding Python in a cloud environment. 
 
 ## Resources
 
