@@ -60,8 +60,10 @@ Further refine the application by improving the prompts, retrieval methods, and 
 1. [Github of the Translation App for the code structure](https://github.com/End2EndAI/travel-ai-translator)
 2. [Guide to build the RAG system](https://platform.openai.com/docs/tutorials/web-qa-embeddings)
 3. Guide to use the Azure OpenAI Service API
+   
    a. [GPT model](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/chatgpt?tabs=python&pivots=programming-language-chat-completions)
+   
    b. [Embedding model](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/embeddings?tabs=python)
-4. [Guide to implement a ChromaDB vector database](https://docs.trychroma.com/getting-started): 
-5. [Free hosting for Flask app](https://www.pythonanywhere.com)
-6. How to use Git and how to push on GitHub from Visual Studio: Ask ChatGPT 😉
+5. [Guide to implement a ChromaDB vector database](https://docs.trychroma.com/getting-started): 
+6. [Free hosting for Flask app](https://www.pythonanywhere.com)
+7. How to use Git and how to push on GitHub from Visual Studio: Ask ChatGPT 😉
