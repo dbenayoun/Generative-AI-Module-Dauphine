@@ -54,6 +54,11 @@ The project’s GitHub needs to be sent before 15/03/2024.
 
 https://docs.google.com/spreadsheets/d/1Bq_fIELFZWANblbx1UL3CM1rpgHX-mx_8yABH-mYgMQ/edit?usp=sharing
 
+#### Please only use the following models from OpenAI (the other models, especially GPT-4, are too expensive and will result in consuming all the API Credit):
+
+- `gpt-3.5-turbo` for ChatCompletion
+- `text-embedding-3-small` for Embeddings
+
 2. Install the working environment following the guide
 
 `resources\Guide_Setup_Environment.md`
@@ -103,9 +108,14 @@ Use the sample data first `data\twitter_data_clean_sample.csv`.
 
 - Next, enhance the Flask back-end by integrating the Retrieval-Augmented Generation (RAG) system. Start by utilizing the provided sample file `twitter_data_clean_sample.csv` to enable the system to identify and respond with the most relevant tweet, using GPT-generated answers. Initially, employ an Excel file for storing embeddings, progressing later to a more sophisticated vector database solution, such as ChromaDB.
 
-#### Warning : There are a lot of data in the full csv data `data\twitter_data_clean.csv`, please be careful especially when processing that data with OpenAI to not consume all the API Credit.
+#### Please only use the following models from OpenAI (the other models, especially GPT-4, are too expensive and will result in consuming all the API Credit):
+
+- `gpt-3.5-turbo` for ChatCompletion
+- `text-embedding-3-small` for Embeddings
 
 - Further refine the application by improving the prompts, retrieval methods, and front-end features, such as adding translation and text reformulation capabilities. Then use the full data `data\twitter_data_clean.csv` in the app.
+
+#### Warning : There are a lot of data in the full csv data `data\twitter_data_clean.csv`, please be careful especially when processing that data with OpenAI to not consume all the API Credit.
 
 - Evaluate your system using the evaluation dataset `data\twitter_data_clean_eval.csv`.
 
@@ -114,7 +124,7 @@ Use the sample data first `data\twitter_data_clean_sample.csv`.
 ## Resources
 
 1. [Github of the Translation App for the code structure](https://github.com/End2EndAI/travel-ai-translator)
-2. [Guide to use the OpenAI API]([https://platform.openai.com/docs/overview] 
+2. [Guide to use the OpenAI API]([https://platform.openai.com/docs/overview])
 3. [Guide to build the RAG system](https://platform.openai.com/docs/tutorials/web-qa-embeddings)
 5. [Guide to implement a ChromaDB vector database](https://docs.trychroma.com/getting-started): 
 6. [Free hosting for Flask app](https://www.pythonanywhere.com)
