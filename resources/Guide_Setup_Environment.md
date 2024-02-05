@@ -1,5 +1,9 @@
 ### Quickstart Guide: Setting Up a Python Flask Development Environment
 
+#### 0. Install Git
+- **Download**: Go to the [Git website](https://git-scm.com/) and download the installer for your operating system.
+- **Install**: Run the installer and follow the on-screen instructions. Use the default configuration from the installation tool.
+
 #### 1. Install Visual Studio Code (VS Code)
 - **Download**: Go to the [VS Code website](https://code.visualstudio.com/) and download the installer for your operating system.
 - **Install**: Run the installer and follow the on-screen instructions.
