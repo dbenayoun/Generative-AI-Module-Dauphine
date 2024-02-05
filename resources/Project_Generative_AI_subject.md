@@ -124,7 +124,7 @@ Use the sample data first `data\twitter_data_clean_sample.csv`.
 ## Resources
 
 1. [Github of the Translation App for the code structure](https://github.com/End2EndAI/travel-ai-translator)
-2. [Guide to use the OpenAI API]([https://platform.openai.com/docs/overview])
+2. [Guide to use the OpenAI API](https://platform.openai.com/docs/overview)
 3. [Guide to build the RAG system](https://platform.openai.com/docs/tutorials/web-qa-embeddings)
 5. [Guide to implement a ChromaDB vector database](https://docs.trychroma.com/getting-started) 
 6. [Free hosting for Flask app](https://www.pythonanywhere.com)
